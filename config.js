@@ -4,4 +4,7 @@ module.exports = {
 
   refreshTokenSecret: "myRefreshTokenSecret",
   refreshTokenExpiresIn: "1w",
+
+  cacheTemporaryTokenPrefix: "temp_token",
+  cacheTemporaryTokenExpiresInSeconds: 180,
 };
